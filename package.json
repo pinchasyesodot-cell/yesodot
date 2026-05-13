@@ -14,5 +14,9 @@
   "devDependencies": {
     "@types/node": "^25.7.0",
     "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "one-liner-joke": "^1.2.2"
   }
 }
