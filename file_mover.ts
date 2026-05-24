@@ -40,7 +40,7 @@ const file_mover = () => {
     processItem(file);
   }
   fs.watch(sourceDir, (eventType, filename) => {
-    if (eventType === "rename" && filename) {
+    if ((eventType === "rename" || eventType === "change") && filename) {
       processItem(filename);
     }
   });

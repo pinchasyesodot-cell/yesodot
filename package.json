@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node app.ts",
+    "start": "tsx Summary_task/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,7 +13,8 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^25.7.0",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "tsx": "^4.22.3"
   },
   "dependencies": {
     "analiza-sync": "^1.0.1",

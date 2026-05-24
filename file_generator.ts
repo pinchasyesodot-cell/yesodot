@@ -34,4 +34,8 @@ const file_generator = async (
 
 const inputFiles = parseInt(process.argv[2]);
 const inputWords = parseInt(process.argv[3]);
+if (isNaN(inputFiles) || isNaN(inputWords) || inputFiles <= 0 || inputWords <= 0) {
+  console.error("Please provide valid positive integers for number of files and words.");
+  process.exit(1);
+}
 file_generator(inputFiles, inputWords);

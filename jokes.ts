@@ -1,5 +1,5 @@
 import oneLinerJoke from "one-liner-joke";
-import fs from "fs"
+import fs from "fs";
 import { config } from "dotenv";
 config();
 interface Joke {
@@ -7,9 +7,12 @@ interface Joke {
   tags: string[];
 }
 const jokes = (): void => {
-
-  const jokeAmount: number | undefined = Number(process.env.JOKE_AMOUNT) || 50;
-  if (jokeAmount < 50) {
+  let rawJokeAmount: string | undefined = process.env.JOKE_AMOUNT;
+  const jokeAmount: number | undefined = Number(rawJokeAmount);
+  if (!rawJokeAmount) {
+    rawJokeAmount = "50";
+  }
+  if (isNaN(jokeAmount) || jokeAmount < 50) {
     console.error("The number must be greater than 50.");
     return;
   }
