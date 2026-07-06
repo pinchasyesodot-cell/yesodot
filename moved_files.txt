@@ -1,0 +1,22 @@
+u.txt moved from files_to_move to moved_files
+t.txt moved from files_to_move to moved_files
+‏‏תיקיה חדשה moved from files_to_move to moved_files
+1‏‏תיקיה חדשה moved from files_to_move to moved_files
+‏‏מסמך טקסט חדש.txt moved from files_to_move to moved_files
+‏‏מסמך טקסט חדש.txt moved from files_to_move to moved_files
+‏‏מסמך טקסט חדש.txt moved from files_to_move to moved_files
+‏‏תמונת מפת סיביות חדש.bmp moved from files_to_move to moved_files
+‏‏‫תיקיה ‫דחוסה ‫(מכווצת) ‫חדשה.zip moved from files_to_move to moved_files
+‏‏תיקיה חדשה moved from files_to_move to moved_files
+‏‏מסמך טקסט חדש.txt moved from files_to_move to moved_files
+b moved from files_to_move to moved_files
+b moved from files_to_move to moved_files
+b moved from files_to_move to moved_files
+‏‏תיקיה חדשה moved from files_to_move to moved_files
+‏‏מסמך טקסט חדש.txt moved from files_to_move to moved_files
+u.txt moved from files_to_move to moved_files
+i.txt moved from files_to_move to moved_files
+o.txt moved from files_to_move to moved_files
+i.txt moved from files_to_move to moved_files
+o.txt moved from files_to_move to moved_files
+u.txt moved from files_to_move to moved_files
